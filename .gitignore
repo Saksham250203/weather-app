@@ -31,3 +31,17 @@ build/
 
 ### VS Code ###
 .vscode/
+# Custom ignores (added manually)
+
+# Uploaded files and runtime data
+uploads/
+uploads/**
+*.log
+
+# Secrets / config
+.env
+secret.properties
+settings.xml
+
+# Keystore or credentials
+*.keystore
